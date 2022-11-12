@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #79D0F2;
+}
+
+.container {
+	font-family: montserrat;
+	background-color: #218DA6;
+	height: 80px;
+	width: 100%;
+}
+
+.navbar ul {
+	float: right;
+	margin-right: 20px;
+}
+
+.navbar li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 10px;
+}
+
+.navbar li a {
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.site_content {
+	font-family: merriweather;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+div.site_content h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.options ul{
+	width: 320px;
+	margin: 20px;
+	font-family: merriweather;
+	font-size: 30px;
+	text-align: center;
+	background-color: #927BA6;
+	padding: 15px;
+	border-radius: 30px;
+}
+
+.options {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.options ul li {
+	padding: 5px;
+}
+
+.options ul li a{
+	color: black;
+}
